@@ -1,0 +1,21 @@
+:root {
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: #ff6060;
+}
+
+a:visited {
+  color: #ff6060;
+}

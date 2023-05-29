@@ -1,0 +1,35 @@
+.room-slider {
+    position: relative;
+}
+
+.room-hero {
+    height: 415px;
+    width: 100%;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.arrow-left {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 30px;
+    top: 50%;
+    rotate: -90deg;
+}
+
+.arrow-right {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 50%;
+    right: 30px;
+    rotate: 90deg;
+}
+
+@media (max-width: 767px) {
+    .room-hero {
+        height: 23.5rem;
+    }
+
+}

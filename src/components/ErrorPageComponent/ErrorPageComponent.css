@@ -1,0 +1,25 @@
+.error-page {
+    display: flex;
+    flex-direction: column;
+    color: #FF6060;
+    justify-content: center;
+    align-items: center;
+    margin: 170px 0 100px 0;
+}
+
+.error-code {
+    font-size: 28.8rem;
+    font-weight: 700;
+    margin-bottom: 6.5rem;
+}
+
+.error-message {
+    font-size: 3.6rem;
+    font-weight: 500;
+    margin-bottom: 18.2rem;
+}
+
+.error-link {
+    font-size: 1.8rem;
+    color: #FF6060;
+}

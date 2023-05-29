@@ -1,0 +1,41 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    margin-bottom: 50px;
+
+
+}
+
+.nav-wrapper {
+    display: flex;
+    gap: 55px;
+    color: #FF6060;
+    font-size: 2.4rem;
+    align-items: center;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.nav-wrapper a {
+    text-decoration: none;
+}
+
+
+.nav-wrapper a:visited {
+    color: #FF6060;
+    text-decoration: none;
+
+}
+
+@media (max-width: 767px) {
+    header {
+        height: 40px;
+        margin-bottom: 20PX;
+    }
+
+    .nav-wrapper {
+        font-size: 1.2rem;
+        gap: 22px;
+    }
+}

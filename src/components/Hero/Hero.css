@@ -1,0 +1,43 @@
+.hero {
+    height: 225px;
+    width: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.hero-img {
+    display: flex;
+    flex-grow: 1;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../assets/images/hero.jpg");
+    background-position: 50% 44%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text {
+    position: absolute;
+    font-size: 4.8rem;
+    color: white;
+
+}
+
+@media (max-width: 767px) {
+    .hero {
+        text-align: start;
+        height: 110px;
+        margin-bottom: 20px;
+
+    }
+
+    .hero-text {
+        font-size: 2.4rem;
+        left: 15px;
+    }
+}

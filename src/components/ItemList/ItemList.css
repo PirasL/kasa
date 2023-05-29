@@ -1,0 +1,23 @@
+.item-list {
+    background: #F7F7F7;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    width: auto;
+    height: auto;
+    border-radius: 25px;
+    padding: 53px;
+
+    gap: 2vw;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, auto);
+}
+
+@media (max-width: 767px) {
+    .item-list {
+        gap: 2rem;
+        grid-template-columns: 1fr;
+        padding: 0;
+
+    }
+}
