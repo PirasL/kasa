@@ -18,22 +18,23 @@ export default function RoomHero({ pictures }) {
     };
     setCurrentIndex(newIndex);
   }
+
   return (
     <div className="room-slider">
-      <img src={pictures[currentIndex]} className="room-hero" />
+      <img src={pictures[currentIndex]} className="room-hero" alt="slider" />
       <div
         className="arrow arrow-left"
         onClick={changeSlide}
         data-offset="prev"
       >
-        <img src={arrow} />
+        <img src={arrow} alt="right nav arrow"/>
       </div>
       <div
         className="arrow arrow-right"
         onClick={changeSlide}
         data-offset="next"
       >
-        <img src={arrow} />
+        <img src={arrow} alt="left nav arrow"/>
       </div>
     </div>
   );

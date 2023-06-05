@@ -1,8 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/HomePage";
-
 import "./App.css";
-
 import AboutPage from "./pages/AboutPage";
 import ErrorPage from "./pages/ErrorPage";
 import RoomPage from "./pages/RoomPage";
