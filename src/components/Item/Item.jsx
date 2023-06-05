@@ -1,5 +1,5 @@
 import React from "react";
-import { Navigate, redirect, useNavigate } from "react-router-dom";
+import {useNavigate } from "react-router-dom";
 import "./Item.css";
 
 export default function Item({ id, title, cover }) {
@@ -11,7 +11,7 @@ export default function Item({ id, title, cover }) {
         navigate(`/room/${id}`);
       }}
     >
-      <img className="item-img" src={cover} />
+      <img className="item-img" src={cover} alt="item"/>
       <div className="item-overlay"></div>
       <h3 className="item-text">{title}</h3>
     </div>

@@ -15,6 +15,7 @@ export default function Collapsible({ collapsed = true, title, content }) {
         <img
           src={arrow}
           style={isCollapsed ? { transform: "rotate(180deg)" } : {}}
+          alt="arrow"
         />
       </div>
       <div
