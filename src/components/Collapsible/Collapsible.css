@@ -42,9 +42,9 @@
 }
 
 @media (max-width: 767px) {
-  /* .collapse {
-    margin-bottom: unset;
-  } */
+  .collapse {
+    margin-bottom: 10px;
+  }
 
   .collapse-button {
     font-size: 1.3rem;
