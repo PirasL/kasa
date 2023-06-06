@@ -23,14 +23,16 @@ export default function RoomHero({ pictures }) {
     <div className="room-slider">
       <img src={pictures[currentIndex]} className="room-hero" alt="slider" />
       <div
+      style={{display: pictures.length === 1 ? "none" : "" }}
         className="arrow arrow-left"
         onClick={changeSlide}
         data-offset="prev"
       >
-        <img src={arrow} alt="right nav arrow"/>
+        <img src={arrow}  alt="right nav arrow"/>
         
       </div>
       <div
+      style={{display: pictures.length === 1 ? "none" : "" }}
         className="arrow arrow-right"
         onClick={changeSlide}
         data-offset="next"

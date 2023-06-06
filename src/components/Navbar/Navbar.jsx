@@ -1,11 +1,10 @@
-import React, { useState } from "react";
 import "./navbar.css";
 import logo from "../../assets/images/logo-kasa.png";
-import { Link, useParams } from "react-router-dom";
+import { Link} from "react-router-dom";
 
 export default function Navbar() {
   const activePage = window.location.pathname;
-  console.log(activePage)
+
   return (
     <header>
       <img src={logo} alt="logo Kasa"/>
