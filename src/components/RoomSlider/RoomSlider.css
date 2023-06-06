@@ -27,6 +27,16 @@
     rotate: 90deg;
 }
 
+.compteur {
+    position: absolute;
+    left: 50%; 
+    bottom: 50px;
+    padding: 10px;
+    border-radius: 100px;
+    background: #00000050;
+    color: white;
+}
+
 @media (max-width: 767px) {
     .room-hero {
         height: 23.5rem;

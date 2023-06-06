@@ -28,6 +28,7 @@ export default function RoomHero({ pictures }) {
         data-offset="prev"
       >
         <img src={arrow} alt="right nav arrow"/>
+        
       </div>
       <div
         className="arrow arrow-right"
@@ -35,7 +36,7 @@ export default function RoomHero({ pictures }) {
         data-offset="next"
       >
         <img src={arrow} alt="left nav arrow"/>
-      </div>
+      </div><div className="compteur">{`${currentIndex + 1}/${pictures.length}`}</div>
     </div>
   );
 }
