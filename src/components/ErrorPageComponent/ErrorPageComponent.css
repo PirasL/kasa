@@ -17,9 +17,19 @@
     font-size: 3.6rem;
     font-weight: 500;
     margin-bottom: 18.2rem;
+    text-align: center;
 }
 
 .error-link {
     font-size: 1.8rem;
     color: #FF6060;
+}
+
+@media (max-width: 767px) {
+    .error-code {
+        font-size: 9.6rem;
+    }
+    .error-message {
+        font-size: 1.8rem;
+    }
 }

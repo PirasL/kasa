@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 50px 50px 50px;
+   margin-bottom: 50px;
 }
 
 .hero-about-img {
@@ -16,4 +16,8 @@
     background-position: 50% 44%;
     background-repeat: no-repeat;
     background-size: cover
+}
+
+@media (max-width: 767px) {
+  
 }
