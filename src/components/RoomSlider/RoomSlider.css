@@ -41,5 +41,7 @@
     .room-hero {
         height: 23.5rem;
     }
-
+    .compteur {
+        display: none;
+    }
 }

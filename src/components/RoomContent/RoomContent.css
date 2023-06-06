@@ -102,4 +102,9 @@
         gap: 2rem;
         margin-bottom: 30px;
     }
+
+    .profile {
+        margin-top:  0;
+    }
+
 }

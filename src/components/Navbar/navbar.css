@@ -28,6 +28,10 @@ header {
 
 }
 
+.activeMenu {
+    text-decoration: underline !important;
+}
+
 @media (max-width: 767px) {
     header {
         height: 40px;
